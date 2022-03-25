@@ -334,15 +334,15 @@ class Character extends FlxSprite
 
                     animation.addByPrefix('idle', 'Idle', 24, false);
                     animation.addByPrefix('singUP', 'Up', 24, false);
-                    animation.addByPrefix('singLEFT', 'Left', 24, false);
-                    animation.addByPrefix('singRIGHT', 'Right', 24, false);
-                    animation.addByPrefix('singDOWN', 'down', 24, false);
+                    animation.addByPrefix('singLEFT', 'Right', 24, false);
+                    animation.addByPrefix('singRIGHT', 'Left', 24, false);
+                    animation.addByPrefix('singDOWN', 'Down', 24, false);
                     animation.addByPrefix('singUPmiss', 'UMiss', 24, false);
-                    animation.addByPrefix('singLEFTmiss', 'LMiss', 24, false);
-                    animation.addByPrefix('singRIGHTmiss', 'RMiss', 24, false);
+                    animation.addByPrefix('singLEFTmiss', 'RMiss', 24, false);
+                    animation.addByPrefix('singRIGHTmiss', 'LMiss', 24, false);
                     animation.addByPrefix('singDOWNmiss', 'DMiss', 24, false);
 
-                    addOffset('idle', -5);
+                addOffset('idle', -5);
                 addOffset("singUP", -29, 27);
                 addOffset("singRIGHT", -38, -7);
                 addOffset("singLEFT", 12, -6);
